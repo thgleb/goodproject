@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>GoodProject</title>
+    <link rel="stylesheet" href="static/styles/main.css">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <script src="static/js/common.js"></script>
+    <script src="static/js/main.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div id="header-top">
+            <div class="wrapper clearfix">
+                <div id="logo">
+                    <a href="index.html"><span>GoodProject</span></a>
+                </div>
+                <div id="count-events" class="font-pf">
+                    <div id="count-events-text">
+                        <a href="#">Сегодня</a><span>/</span><a href="">2 события</a>
+                    </div>
+                    <div id="count-events-date"><span>31</span></div>
+                </div>
+            </div>
+        </div>
+        <div id="header-bottom" class="font-pf">
+            <div class="wrapper clearfix">
+                <nav id="header-nav-main" class="header-nav">
+                    <ul>
+                        <li><a href="index.html" class="active">Главная</a></li>
+                        <li><a href="rests.html">Рестораны</a></li>
+                        <li><a href="articles.html">Статьи</a></li>
+                        <li><a href="#">Фото</a></li>
+                        <li><a href="#">Музыка</a></li>
+                        <li><a href="#" class="highlight">Good Stars</a></li>
+                    </ul>
+                </nav>
+
+                <nav id="header-nav-about" class="header-nav">
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="vacancies.html">Вакансии</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Партнеры</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div id="page" class="wrapper">
+        <div class="slider" id="slider">
+            <div class="slider-nav">
+                <span class="a-prev"></span>
+                <span class="a-next"></span>
+            </div>
+            <div class="slide active" style="background-image: url('static/images/slider/1.jpg')">
+                <div class="slide-info">
+                    <div class="font-pf">
+                        <div class="slide-info-place">
+                            <a href="#">Бархат</a>
+                        </div>
+                        <h3>
+                            <a href="#">Презентация Maserati</a>
+                        </h3>
+                        <time datetime="2014-05-30 18:00">
+                            30 Мая в 18:00
+                        </time>
+                    </div>
+                    <p>30 мая в ресторане Бархат состоится презентация всем известного Maserati. Вход бесплатный!</p>
+                    <div class="slide-info-button">
+                        <a href="/">Читать дальше</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('static/images/slider/2.jpg')">
+                <div class="slide-info">
+                    <div class="font-pf">
+                        <div class="slide-info-place">
+                            <a href="#">Пивница</a>
+                        </div>
+                        <h3>
+                            <a href="#">Презентация кукловода</a>
+                        </h3>
+                        <time datetime="2014-06-05 15:00">
+                            5 Июня в 15:00
+                        </time>
+                    </div>
+                    <p>30 мая в ресторане Пивница состоится презентация всем известного кукловода - Ололошки Лукъяновой.</p>
+                    <div class="slide-info-button">
+                        <a href="/">Читать дальше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper content-preview clearfix">
+            <div class="cp-object">
+                <div class="cp-object-photo">
+                    <a href="#">
+                        <span class="view-content">Смотреть</span>
+                        <img src="static/images/main-page-events/bentley_dinner.jpg" alt="" class="cp-photo">
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="cp-object-type">Мероприятие</div>
+                    <h3><a href="#">Bentley Dinner</a></h3>
+                </div>
+                <p>
+                    <b>27 июня / 20:00</b> в Dim Sum состоится ужин, вдохновленный легендарной маркой. Гостей ждет тест-драйв c 12:00 до 17:00.
+                </p>
+            </div>
+            <div class="cp-object">
+                <div class="cp-object-photo">
+                    <a href="#">
+                        <span class="view-content">Смотреть</span>
+                        <img src="static/images/main-page-events/david_guetta.jpg" alt="" class="cp-photo">
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="cp-object-type">Мероприятие</div>
+                    <h3><a href="#">david guetta</a></h3>
+                </div>
+                <p>
+                    <b>15 июня / 22:00</b> в Chivas Lounge будет выступать сам David Guetta, где он презентует свои новые песни.
+                </p>
+            </div>
+            <div class="cp-object">
+                <div class="cp-object-photo">
+                    <a href="#">
+                        <span class="view-content">Смотреть</span>
+                        <img src="static/images/main-page-events/dj_baur.jpg" alt="" class="cp-photo">
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="cp-object-type">Мероприятие</div>
+                    <h3><a href="#">dj baur / luxury night</a></h3>
+                </div>
+                <p>
+                    <b>12 июня / 18:00</b> в Chivas Lounge будет выступать Dj Baur и другие известные диджеи, не пропусти!
+                </p>
+            </div>
+        </div>
+
+        <div class="separator-h3 clearfix">
+            <h3 class="separator-h3-sale font-pf">Акции</h3>
+            <div class="separator-h3-switcher">
+                <span class="li" data-active>Актуальные</span>
+                <span data-sep>/</span>
+                <span class="li">Завершенные</span>
+            </div>
+            <div class="separator-h3-link"><a href="">Показать все акции</a></div>
+        </div>
+
+        <div class="wrapper content-preview clearfix">
+            <div class="cp-object">
+                <div class="cp-object-photo">
+                    <a href="#">
+                        <span class="view-content">Смотреть</span>
+                        <img src="static/images/main-page-sales/steak.jpg" alt="" class="cp-photo">
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="cp-object-type">Акция</div>
+                    <h3><a href="#">Сочный стейк Рибай</a></h3>
+                </div>
+                <p>
+                    <b>С 13 по 30 июня</b> в ресторане Бархат вы можете попробовать сочный стейк рибай всего за 2500 тг!
+                </p>
+            </div>
+            <div class="cp-object">
+                <div class="cp-object-photo">
+                    <a href="#">
+                        <span class="view-content">Смотреть</span>
+                        <img src="static/images/main-page-sales/chicken_in_pan.jpg" alt="" class="cp-photo">
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="cp-object-type">Акция</div>
+                    <h3><a href="#">Курица на сковороде</a></h3>
+                </div>
+                <p>
+                    <b>С 28 мая по 30 июня</b> в ресторане Dim Sum можете попробовать блюдо в китайском стиле со скидкой в 20%
+                </p>
+            </div>
+            <div class="cp-object">
+                <div class="cp-object-photo">
+                    <a href="#">
+                        <span class="view-content">Смотреть</span>
+                        <img src="static/images/main-page-sales/chicken_sashlik.jpg" alt="" class="cp-photo">
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="cp-object-type">Акция</div>
+                    <h3><a href="#">Куриный шашлык</a></h3>
+                </div>
+                <p>
+                    <b>12 июня</b> в Kyoto Bar куриный шашлык с картофелем за 2500 тг + безалкогольный напиток <b>бесплатно</b>.
+                </p>
+            </div>
+        </div>
+
+        <div class="separator-h3 clearfix">
+            <h3 class="separator-h3-photoreports font-pf">Фотоотчеты</h3>
+
+            <div class="separator-h3-switcher2">
+                <div class="dropdown" id="photoreports-rests">
+                    <div class="dd-title">
+                        <span>Ресторан</span>
+                    </div>
+                    <ul class="dd-options">
+                        <li data-selected data-not-change>Все рестораны</li>
+                        <li>Бархат</li>
+                        <li>Пивница</li>
+                        <li>Jelsomino</li>
+                        <li>Chivas Lounge</li>
+                        <li>Kyoto bar</li>
+                        <li>Habibi</li>
+                        <li>Dim Sum</li>
+                        <li>На крыше</li>
+                        <li>Артист</li>
+                    </ul>
+                </div>
+
+                <div class="datetime-picker" id="photoreports-dates" data-time>
+                    <div class="dtp-title">
+                        <span>Дата</span>
+                    </div>
+
+                    <div class="dtp-calendar">
+                        <div class="dtp-month-name">
+                            <span>июль / 2014</span>
+                            <span data-arrow="left"></span>
+                            <span data-arrow="right" data-nomore></span>
+                        </div>
+                        <table class="dtp-table">
+                            <tr class="dtp-days">
+                                <td>Пн</td>
+                                <td>Вт</td>
+                                <td>Ср</td>
+                                <td>Чт</td>
+                                <td>Пт</td>
+                                <td>Сб</td>
+                                <td>Вс</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="separator-h3-link"><a href="">Показать все фотоотчеты</a></div>
+        </div>
+
+        <div class="wrapper content-preview clearfix">
+            <div class="cp-object">
+                <div class="cp-object-photo">
+                    <a href="#">
+                        <span class="view-content">Смотреть</span>
+                        <img src="static/images/main-page-photoreports/dj_nejtrino.jpg" alt="" class="cp-photo">
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="cp-object-type"><a href="#">Chivas Lounge</a></div>
+                    <h3><a href="#">Dj Nejtrino</a></h3>
+                </div>
+                <p><b>8 июня</b> в ресторане Chivas Lounge выступил известный Dj Nejtrino, не забудьте посмотреть фотоотчет!</p>
+            </div>
+            <div class="cp-object">
+                <div class="cp-object-photo">
+                    <a href="#">
+                        <span class="view-content">Смотреть</span>
+                        <img src="static/images/main-page-photoreports/wpt_party.jpg" alt="" class="cp-photo">
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="cp-object-type"><a href="#">Chivas Lounge</a></div>
+                    <h3><a href="#">wpt party</a></h3>
+                </div>
+                <p><b>7 мая</b> в ресторане Chivas Lounge состоялась вечеринка «WTP Party», на которой было более 200 человек.</p>
+            </div>
+            <div class="cp-object">
+                <div class="cp-object-photo">
+                    <a href="#">
+                        <span class="view-content">Смотреть</span>
+                        <img src="static/images/main-page-photoreports/luxury_night.jpg" alt="" class="cp-photo">
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="cp-object-type"><a href="#">Бархат</a></div>
+                    <h3><a href="#">luxury night</a></h3>
+                </div>
+                <p><b>6 мая</b> в ресторане Бархат была вечеринка, на который выступил Dj Baur и еще несколько человек.</p>
+            </div>
+        </div>
+
+        <div class="separator-h3 clearfix">
+            <h3 class="separator-h3-rests font-pf">Рестораны</h3>
+
+            <div class="separator-h3-switcher2">
+                <div class="dropdown" id="dropdown-rests" data-multiselect>
+                    <div class="dd-title"><span>Все рестораны</span></div>
+                    <ul class="dd-options">
+                        <li data-selected>Все рестораны</li>
+                        <li>Lounge-рестораны</li>
+                        <li>Бутик-отели</li>
+                        <li>Караоке-бары и рестораны</li>
+                        <li>Рестораны</li>
+                        <li>Бары</li>
+                        <li>Пивницы</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="separator-h3-switcher3" id="rests-show-type">
+                <ul>
+                    <li data-id="images" class="icon-images">
+                        <span>Картинками</span>
+                    </li>
+                    <li data-id="map" class="icon-map">
+                        <span>На карте</span>
+                    </li>
+                    <li data-id="list" class="icon-list">
+                        <span>Списком</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="wrapper rests-preview clearfix">
+            <div class="rp-object">
+                <div class="rp-object-photo">
+                    <a href="#">
+                        <div class="rp-op-bg" style="
+                             background-image:url('static/images/main-page-rests-2/1_bg.jpg')
+                        "></div>
+                        <div class="rp-op-logo" style="
+                             background-image:url('static/images/main-page-rests-2/1_logo.png')
+                        "></div>
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="rp-object-type">lounge-ресторан</div>
+                    <h3><a href="#">Бархат</a></h3>
+                </div>
+            </div>
+            <div class="rp-object">
+                <div class="rp-object-photo">
+                    <a href="#">
+                        <div class="rp-op-bg" style="
+                             background-image:url('static/images/main-page-rests-2/2_bg.jpg')
+                        "></div>
+                        <div class="rp-op-logo" style="
+                             background-image:url('static/images/main-page-rests-2/2_logo.png')
+                        "></div>
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="rp-object-type">пивоварня</div>
+                    <h3><a href="#">Пивница</a></h3>
+                </div>
+            </div>
+            <div class="rp-object">
+                <div class="rp-object-photo">
+                    <a href="#">
+                        <div class="rp-op-bg" style="
+                             background-image:url('static/images/main-page-rests-2/3_bg.jpg')
+                        "></div>
+                        <div class="rp-op-logo" style="
+                             background-image:url('static/images/main-page-rests-2/3_logo.png')
+                        "></div>
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="rp-object-type">бутик-отель</div>
+                    <h3><a href="#">Jelsomino</a></h3>
+                </div>
+            </div>
+            <div class="rp-object">
+                <div class="rp-object-photo">
+                    <a href="#">
+                        <div class="rp-op-bg" style="
+                             background-image:url('static/images/main-page-rests-2/4_bg.jpg')
+                        "></div>
+                        <div class="rp-op-logo" style="
+                             background-image:url('static/images/main-page-rests-2/4_logo.png')
+                        "></div>
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="rp-object-type">караоке-ресторан</div>
+                    <h3><a href="#">Jelsomino</a></h3>
+                </div>
+            </div>
+            <div class="rp-object">
+                <div class="rp-object-photo">
+                    <a href="#">
+                        <div class="rp-op-bg" style="
+                             background-image:url('static/images/main-page-rests-2/5_bg.jpg')
+                        "></div>
+                        <div class="rp-op-logo" style="
+                             background-image:url('static/images/main-page-rests-2/5_logo.png')
+                        "></div>
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="rp-object-type">ресторан</div>
+                    <h3><a href="#">Chivas Lounge</a></h3>
+                </div>
+            </div>
+            <div class="rp-object">
+                <div class="rp-object-photo">
+                    <a href="#">
+                        <div class="rp-op-bg" style="
+                             background-image:url('static/images/main-page-rests-2/6_bg.jpg')
+                        "></div>
+                        <div class="rp-op-logo" style="
+                             background-image:url('static/images/main-page-rests-2/6_logo.png')
+                        "></div>
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="rp-object-type">караоке-бар</div>
+                    <h3><a href="#">Kyoto bar</a></h3>
+                </div>
+            </div>
+            <div class="rp-object">
+                <div class="rp-object-photo">
+                    <a href="#">
+                        <div class="rp-op-bg" style="
+                             background-image:url('static/images/main-page-rests-2/7_bg.jpg')
+                        "></div>
+                        <div class="rp-op-logo" style="
+                             background-image:url('static/images/main-page-rests-2/7_logo.png')
+                        "></div>
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="rp-object-type">shisha lounge</div>
+                    <h3><a href="#">Habibi</a></h3>
+                </div>
+            </div>
+            <div class="rp-object">
+                <div class="rp-object-photo">
+                    <a href="#">
+                        <div class="rp-op-bg" style="
+                             background-image:url('static/images/main-page-rests-2/8_bg.jpg')
+                        "></div>
+                        <div class="rp-op-logo" style="
+                             background-image:url('static/images/main-page-rests-2/8_logo.png')
+                        "></div>
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="rp-object-type">ресторан</div>
+                    <h3><a href="#">Dim Sum</a></h3>
+                </div>
+            </div>
+            <div class="rp-object">
+                <div class="rp-object-photo">
+                    <a href="#">
+                        <div class="rp-op-bg" style="
+                             background-image:url('static/images/main-page-rests-2/9_bg.jpg')
+                        "></div>
+                        <div class="rp-op-logo" style="
+                             background-image:url('static/images/main-page-rests-2/9_logo.png')
+                        "></div>
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="rp-object-type">бар и ресторан</div>
+                    <h3><a href="#">На крыше</a></h3>
+                </div>
+            </div>
+            <div class="rp-object">
+                <div class="rp-object-photo">
+                    <a href="#">
+                        <div class="rp-op-bg" style="
+                             background-image:url('static/images/main-page-rests-2/10_bg.jpg')
+                        "></div>
+                        <div class="rp-op-logo" style="
+                             background-image:url('static/images/main-page-rests-2/10_logo.png')
+                        "></div>
+                    </a>
+                </div>
+                <div class="font-pf">
+                    <div class="rp-object-type">караоке-бар и ресторан</div>
+                    <h3><a href="#">Артист</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="wrapper clearfix">
+        <div class="copy">Good Project © 2014</div>
+        <ul>
+            <li><a href="#">О нас</a></li>
+            <li><a href="vacancies.html">Вакансии</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Партнеры</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
